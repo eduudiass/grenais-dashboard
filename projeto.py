@@ -12,7 +12,7 @@ except FileNotFoundError:
 vits = df["Vencedor"].value_counts()
 vits = vits.rename({"Internacional": "Inter", "Grêmio": "Grêmio", "Empate": "Empate"})
 
-print("\n📊 Vitórias:")
+print("\n Vitórias:")
 print(vits)
 
 plt.figure(figsize=(6, 4))
