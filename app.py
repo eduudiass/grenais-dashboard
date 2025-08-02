@@ -6,7 +6,7 @@ import re
 
 df = pd.read_csv("ultimos_25_grenais.csv")
 
-st.title("🌟 Análise dos últimos 25 GreNais")
+st.title("Análise dos últimos 25 GreNais")
 
 vitoria_counts = df["Vencedor"].value_counts()
 vitoria_counts = vitoria_counts.reindex(["Internacional", "Grêmio", "Empate"], fill_value=0)
