@@ -27,5 +27,5 @@ artilheiros = Counter(nomes_gols)
 artilheiros_df = pd.DataFrame(artilheiros.items(), columns=["Jogador", "Gols"]).sort_values(by="Gols", ascending=False)
 st.dataframe(artilheiros_df, hide_index=True)
 
-st.subheader("📅 Tabela Completa")
+st.subheader("Tabela Completa")
 st.dataframe(df)
