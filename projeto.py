@@ -61,7 +61,7 @@ contagem_artilheiros = Counter(todos_gols)
 df_artilheiros = pd.DataFrame(contagem_artilheiros.items(), columns=["Jogador", "Gols"])
 df_artilheiros = df_artilheiros.sort_values(by="Gols", ascending=False)
 
-print("\n🏆 Artilheiros dos últimos 25 GreNais:\n")
+print("\n Artilheiros dos últimos 25 GreNais:\n")
 print(df_artilheiros.to_string(index=False))
 plt.figure(figsize=(10, 6))
 plt.bar(df_artilheiros["Jogador"], df_artilheiros["Gols"], color="purple")
