@@ -30,10 +30,7 @@ Como rodar localmente:
 
 🚀 Execute o Streamlit com streamlit run app.py
 
-Nome e Foco no Aprendizado:
-“Dashboard Interativo GreNais: Visualizando a História do Futebol com Python ⚽️📊”
+Transformei estatísticas de futebol em uma experiência interativa — e você pode ver isso acontecer ao vivo! 🚀
 
 Tecnologias Estudadas:
 Python, Pandas, Streamlit, Matplotlib
-
-Transformei estatísticas de futebol em uma experiência interativa — e você pode ver isso acontecer ao vivo! 🚀
