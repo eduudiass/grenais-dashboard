@@ -36,5 +36,4 @@ Nome e Foco no Aprendizado:
 Tecnologias Estudadas:
 Python, Pandas, Streamlit, Matplotlib
 
-Frase de Impacto:
-“Transformei estatísticas de futebol em uma experiência interativa — e você pode ver isso acontecer ao vivo! 🚀”
+Transformei estatísticas de futebol em uma experiência interativa — e você pode ver isso acontecer ao vivo! 🚀
